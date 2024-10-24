@@ -42,9 +42,7 @@ const renderSinglePokemon = async (pokemonName) => {
   // rewrite the main's innerHTML to string with the name and img
   main.innerHTML = `
     <h2>${pokemonDetails.name}</h2>
-
     <img src="${pokemonDetails.sprites.front_default}" alt="${pokemonDetails.name}'s picture" />
-
     <button>Back</button>
   `;
 
